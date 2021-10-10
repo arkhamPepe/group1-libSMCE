@@ -1,0 +1,15 @@
+exclude:
+- /.git/.*
+- /.github/.*
+- /ci/.*
+- /CMake/.*
+
+- .*/\.clang-format
+- .*/\.clang-tidy
+- .*/\.gitignore
+- .*/CMakeLists\.txt
+- .*/Doxyfile
+
+
+languages:
+- cpp
